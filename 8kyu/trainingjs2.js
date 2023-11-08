@@ -22,25 +22,25 @@ function equal1(){
 
 //Please refer to the example above to complete the following functions
 function equal2(){
-  let a =  , //set number value to a
-      b =  ; //set number value to b
+  let a = v3 , //set number value to a
+      b = v1 ; //set number value to b
   return a - b;
 }
 
 function equal3(){
-  let a =  , //set number value to a
-      b =  ; //set number value to b
+  let a = v1 , //set number value to a
+      b = v5 ; //set number value to b
   return a * b;
 }
 
 function equal4(){
-  let a =  , //set number value to a
-      b =  ; //set number value to b
+  let a = v4 , //set number value to a
+      b = v5 ; //set number value to b
   return a / b;
 }
 
 function equal5(){
-  let a =  , //set number value to a
-      b =  ; //set number value to b
+  let a = v6 , //set number value to a
+      b = v3 ; //set number value to b
   return a % b;
 }
