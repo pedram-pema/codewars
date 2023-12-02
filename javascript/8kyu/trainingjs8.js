@@ -15,3 +15,26 @@ Complete the function howManydays. It accepts 1 parameter month, which means the
 +---------------+-------------+
 Tip: Using default for most of the cases can reduce your work. */
 
+function howManydays(month){
+    var days;
+    switch (month){
+        case 2:
+          return 28;
+          break;
+        case 4: 
+        case 6:
+        case 9:
+        case 11:
+          return 30;
+          break;
+        case 1:
+        case 3:
+        case 5:
+        case 7:
+        case 8:
+        case 10:
+        case 12:
+          return 31;
+          break;
+    }
+  }  
