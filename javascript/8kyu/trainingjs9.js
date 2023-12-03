@@ -12,5 +12,14 @@ You need to write a loop statement within the function that loops n times. Each 
 Finally, return the padded string. */
 
 function padIt(str,n){
-    //coding here
-  }
+    let i = 1;
+    while(i <= n){
+      if (i % 2 == 0) {
+        str += '*';
+      } else if (i % 2 != 0){
+        str = '*' + str;
+      }
+      i++;
+    }
+    return str;
+}
