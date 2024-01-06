@@ -19,5 +19,22 @@ If an empty value ( null, None, Nothing etc. ) is given instead of an array, or 
  */
 
 function sumArray(array) {
+    if (array == null || array.length === 0 || array.length === 1) {
+        return 0;
+    }
+      
+    const highest = Math.max(...array);
+    const lowest = Math.min(...array);
     
+    let sum = 0;
+    for (let i = 0; i < array.length; i++) {
+    if (array[i] === highest) {
+        continue;
+    } else if (array[i] === lowest) {
+        continue;
+    } else {
+        sum += array[i];
+    }
+    }
+    return sum;
 }
