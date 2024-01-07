@@ -11,11 +11,6 @@ A palindrome is a word, number, phrase, or other sequence of symbols that reads 
 
 function isPalindrome(x) {
     let caseInsensitive = x.toLowerCase();
-    let arrOfX = caseInsensitive.split('');
-    
-    let newArr = arrOfX.reverse();
-    
-    let reversed = newArr.join('');
-    
+    let reversed = caseInsensitive.split('').reverse().join('');
     return reversed === caseInsensitive;
 }
