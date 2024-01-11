@@ -22,3 +22,10 @@ function digitize(n) {
     }
     return reversedArr;
   }
+
+
+// SECOND METHOD TO SOLVE THIS:
+
+function digitize(n) {
+    return Array.from(String(n), Number).reverse();
+}
