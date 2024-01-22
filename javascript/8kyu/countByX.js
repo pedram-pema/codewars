@@ -24,3 +24,15 @@ function countBy(x, n) {
   
     return z;
 }
+
+// Since there is no vital need for multiple viaraible, The above solution can be optimized by removing lines 18 and 21:
+
+function countBy(x, n) {
+    let z = [];
+    
+    for (let i = 1; i <= n; i++) {
+      z.push(multiple);
+    }
+  
+    return z;
+}
