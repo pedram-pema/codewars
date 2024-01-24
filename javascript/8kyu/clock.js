@@ -22,4 +22,9 @@ Input constraints:
 
 function past(h, m, s) {
     
+    let secToMili = s * 1000;
+    let minToMili = m * 60000;
+    let hourToMili = h * 3600000;
+    
+    return secToMili + minToMili + hourToMili;
 }
