@@ -29,3 +29,13 @@ String.prototype.toAlternatingCase = function () {
     
     return arr.join("");
 }
+
+/* 
+Second Solution:
+
+String.prototype.toAlternatingCase = function () {
+  return this.replace(/[a-zA-Z]/g, function(char) {
+        return char === char.toUpperCase() ? char.toLowerCase() : char.toUpperCase();
+    });
+}
+*/
