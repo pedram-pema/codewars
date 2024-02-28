@@ -39,3 +39,21 @@ String.prototype.toAlternatingCase = function () {
     });
 }
 */
+
+/* 
+Third Solution
+
+String.prototype.toAlternatingCase = function () {
+  let arr = this.split("");
+  
+  let mappedArr = arr.map((item) => {
+    if (item === item.toUpperCase()) {
+      return item = item.toLowerCase();
+    } else if (item === item.toLowerCase()) {
+      return item = item.toUpperCase();
+    }
+  });
+  
+  return mappedArr.join("");
+}
+*/
