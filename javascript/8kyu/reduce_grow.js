@@ -34,3 +34,17 @@ function grow(x) {
 }
 
 */  
+
+/* 
+Third solution using reduce() method
+
+function grow(x) {
+  
+  let reduced = x.reduce((total, value) => {
+    return total * value;
+  });
+  
+  return reduced;
+}
+
+*/
