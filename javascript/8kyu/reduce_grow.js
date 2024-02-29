@@ -9,16 +9,28 @@ Given a non-empty array of integers, return the result of multiplying the values
  */
 
 function grow(x) {
+
+    let product = 1;
     
-    let product = 0;
-    
-    for (let i = 1; i < x.length; i++) {
-      if (i === 1) { 
-        product = x[i - 1] * x[i]; 
-      } else {
-        product = product * x[i];
-      }
+    for (let i = 0; i < x.length; i++) {
+      product *= x[i]
     }
     
     return product;
 }
+
+/*
+
+Second solution using for...of loop:
+
+function grow(x) {
+    let result = 1;
+    
+    for(let num of x) {
+      result *= num;
+    }
+    
+    return result;
+}
+
+*/  
