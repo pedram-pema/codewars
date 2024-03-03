@@ -21,21 +21,8 @@ var uniqueInOrder=function(iterable) {
         extractedArr.push(arr[i]);
       }
     }
-    
+
     return extractedArr;
-}
-
-/*
-
-TODO: see if it can be solved with a 0 to end for loop:
-var uniqueInOrder=function(iterable) {
-    let arr = iterable.split("");
-    for (let i = 0; i < arr.length; i++) {
-      if (arr[i] === arr[i + 1]) {
-        arr.splice(i, 1);
-      }
-    }
-    return arr;
 }
 
 /* 
@@ -52,5 +39,9 @@ var uniqueInOrder=function(iterable) {
 */
 
 /* 
-TODO: write a solution using filter or other high order method
+var uniqueInOrder=function(iterable) {
+  return filtered = [...iterable].filter((item, index) => {
+    return item !== iterable[index -1];
+  });
+}
 */
