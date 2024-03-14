@@ -27,3 +27,10 @@ function DNAtoRNA(dna) {
     
     return rna.join("");
 }
+
+/* 
+Second solution written in a map method format:
+function DNAtoRNA(dna) {
+ return dna.split("").map(char => char === "T" ? "U" : char).join("");
+} 
+*/
