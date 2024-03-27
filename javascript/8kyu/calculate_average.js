@@ -34,3 +34,18 @@ function findAverage(array) {
   
   return sum / array.length;
 } */
+
+// A revised version of second solution:
+
+/* 
+function findAverage(array) {
+  
+  let sum = array.reduce(averager, 0);
+  
+  function averager(total, num) {
+    return total + num;
+  }
+  
+  return sum === 0 ? 0 : sum / array.length;
+}
+*/
