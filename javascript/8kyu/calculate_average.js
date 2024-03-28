@@ -49,3 +49,12 @@ function findAverage(array) {
   return sum === 0 ? 0 : sum / array.length;
 }
 */
+
+// Refactor the solution so it's done in only one line:
+/* 
+function findAverage(array) {
+    
+  return array.length ? array.reduce((total, num) => total + num, 0) / array.length : 0;
+  
+}
+*/
