@@ -23,8 +23,21 @@ function pipeFix(numbers) {
     return sorted;
 }
 
-/* solve it using do while
+// Add a second solution done by using do...while:
+/* 
+function pipeFix(numbers) {
+  const result = [];
+  let min = Math.min(...numbers);
+  let max = Math.max(...numbers);
 
+  do {
+    result.push(min);
+    min++;
+  } while (min <= max);
+
+  return result;
+}
+*/
 
 function pipeFix(numbers){
   
