@@ -24,3 +24,18 @@ var max = function(list){
     
     return Math.max(...list);
 }
+
+// It can be done using reduce sort and filter 
+
+// Add solution written with reduce method:
+/* 
+var min = function(list){
+    
+    return list.sort((a, b) => a-b)[0];
+}
+
+var max = function(list){
+    
+    return list.sort((a, b) => a-b)[list.length -1];
+}
+*/
