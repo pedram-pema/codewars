@@ -39,3 +39,33 @@ var max = function(list){
     return list.sort((a, b) => a-b)[list.length -1];
 }
 */
+
+// Rewrite using for loop:
+/* 
+var min = function(list){
+  
+  let minimum = list[0];
+    
+  for (let i = 1; i < list.length; i++) {
+    if (list[i] < minimum) {
+      minimum = list[i];
+    }
+  }  
+  
+  return minimum;
+  
+}
+
+var max = function(list){
+    
+  let maximum = list[0];
+    
+  for (let i = 1; i < list.length; i++) {
+    if (list[i] > maximum) {
+      maximum = list[i];
+    }
+  }  
+  
+  return maximum;
+}
+*/
