@@ -61,10 +61,38 @@ var max = function(list){
   let maximum = list[0];
     
   for (let i = 1; i < list.length; i++) {
-    if (list[i] > maximum) {
-      maximum = list[i];
-    }
+    s
   }  
+  
+  return maximum;
+}
+*/
+
+// Add solution written with forEach:
+/* 
+var min = function(list){
+  
+  let minimum = list[0];
+    
+  list.forEach(item => {
+    if (item < minimum) {
+      minimum = item;
+    }
+  });
+  
+  return minimum;
+  
+}
+
+var max = function(list){
+    
+  let maximum = list[0];
+    
+  list.forEach(item => {
+    if (item > maximum) {
+      maximum = item;
+    }
+  });
   
   return maximum;
 }
