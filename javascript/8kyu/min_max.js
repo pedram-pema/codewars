@@ -97,3 +97,16 @@ var max = function(list){
   return maximum;
 }
 */
+
+// Add solution using reduce method:
+/* 
+var min = function(list){
+    
+    return list.reduce((min, val) => val < min ? val : min, list[0]);
+}
+
+var max = function(list){
+    
+    return list.reduce((max, val) => val > max ? val : max, list[0]);
+}
+*/
