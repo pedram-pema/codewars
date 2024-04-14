@@ -21,3 +21,17 @@ function arrayPlusArray(arr1, arr2) {
     
     return arr1Sum + arr2Sum;
 }
+
+// Add a second solution:
+/* 
+function arrayPlusArray(arr1, arr2) {
+  let spread = [...arr1, ...arr2];
+  let sum = 0;
+  
+  for (let i = 0; i < spread.length; i++) {
+    sum += spread[i];
+  }
+  
+  return sum;
+}
+*/
