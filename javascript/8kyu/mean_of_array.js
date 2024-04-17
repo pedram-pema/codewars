@@ -21,3 +21,11 @@ function getAverage(marks) {
     
     return Math.floor(sum/length);
 }
+
+// Add a second solution using reduce method:
+/* 
+function getAverage(marks){
+  let sum = marks.reduce((acc, val) => acc + val);
+  return Math.floor(sum/marks.length);
+}
+*/
