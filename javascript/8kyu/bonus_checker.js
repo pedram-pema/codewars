@@ -20,3 +20,14 @@ function bonusTime(salary, bonus) {
     }
     
 }
+
+/* 
+Refacor the solution using ternary
+
+function bonusTime(salary, bonus) {
+
+  return (bonus) ? `£`+`${salary*10}` : `£${salary}`;
+  
+}
+
+*/
