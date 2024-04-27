@@ -26,3 +26,22 @@ function correct(string)
   }
   return arr.join("");
 }
+
+/* 
+Add solution using map method:
+function correct(string)
+{
+	return string.split("").map(item => {
+    if (item === "0") {
+      return "O";
+    } else if (item === "1") {
+      return "I";
+    } else if (item === "5") {
+      return "S";
+    } else {
+      return item;
+    }
+  }).join("");
+}
+
+*/
