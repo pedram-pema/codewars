@@ -14,3 +14,10 @@ function getAge(inputString) {
     let arr = inputString.split("");
     return Number(arr[0]);
 }
+
+/* 
+Add a solution using string method:
+function getAge(inputString){
+  return Number(inputString.charAt(0));
+}
+*/
