@@ -21,3 +21,14 @@ function divisibleBy(numbers, divisor) {
     
     return arr;
 }
+
+/* 
+Add solution using filter method:
+
+function divisibleBy(numbers, divisor) {
+ 
+  return numbers.filter(item => item % divisor === 0);
+  
+}
+
+*/
