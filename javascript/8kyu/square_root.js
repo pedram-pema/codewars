@@ -29,3 +29,20 @@ function squareOrSquareRoot(array) {
     return expectedArr;
     
 }
+
+/* 
+Add solution using map method:
+
+function squareOrSquareRoot(array) {
+    
+    return array.map(item => {
+      if (Number.isInteger(Math.sqrt(item))) {
+        return Math.sqrt(item);
+      } else {
+        return Math.pow(item, 2);
+      }
+    });
+
+}
+
+*/
