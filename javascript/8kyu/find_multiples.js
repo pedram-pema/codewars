@@ -20,3 +20,17 @@ function findMultiples(integer, limit) {
     
     return arr;
 }
+
+/* 
+Refactor the solution:
+
+function findMultiples(integer, limit) {
+  let arr = [];
+
+  for (let i = 1; i * integer <= limit; i++) {
+    arr.push(integer * i);
+  }
+
+  return arr;
+}
+*/
