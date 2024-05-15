@@ -21,3 +21,13 @@ function fixTheMeerkat(arr) {
     
     return reversedArr;
 }
+
+/* 
+Add a short solution:
+
+function fixTheMeerkat(arr) {
+ return arr.reverse();
+}
+
+*/
+
