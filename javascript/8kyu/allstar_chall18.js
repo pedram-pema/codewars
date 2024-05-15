@@ -27,3 +27,14 @@ function strCount(str, letter) {
     return counter;
     
 }
+
+/* 
+Add second solution using reduce method:
+
+function strCount(str, letter) {
+  return str.split("").reduce((counter, char) => {
+    return (char === letter) ? ++counter : counter;
+  }, 0);
+}
+
+*/
