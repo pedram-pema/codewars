@@ -22,3 +22,14 @@ function addLength(str) {
     
     return arr;
 }
+
+/* 
+Refactor the solution using map method:
+
+function addLength(str) {
+
+  return str.split(" ").map(value => value = `${value} ${value.length}`);
+  
+}
+
+*/
