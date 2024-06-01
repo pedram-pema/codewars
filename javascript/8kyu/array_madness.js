@@ -25,3 +25,12 @@ function arrayMadness(a, b) {
     return sumA > sumB;
     
 }
+
+/* 
+Write a solution using reduce method:
+
+function arrayMadness(a, b) {
+  return a.reduce((total, value) => total += Math.pow(value, 2) , 0) > b.reduce((total, value) => total += Math.pow(value, 3) , 0)
+}
+
+*/
