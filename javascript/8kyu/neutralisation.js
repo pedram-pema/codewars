@@ -42,3 +42,14 @@ function neutralise(s1, s2) {
     return arr.join("");
     
 }
+
+/* 
+Add a secoind solution using filter method:
+
+function neutralise(s1, s2) {
+  
+  return s1.split("").map((val, ind) => (val === "+" && val === s2[ind]) ? "+" : (val === "-" && val === s2[ind]) ? "-" : 0).join("");
+  
+}
+
+*/
