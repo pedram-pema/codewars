@@ -25,3 +25,12 @@ function sumOfDifferences(arr) {
     return sum;
     
 }
+
+/* 
+Add second solution:
+function sumOfDifferences(arr) {
+  arr.sort((a, b) => b - a);
+  return arr.slice(1).reduce((sum, num, i) => sum + arr[i] - num, 0);
+}
+
+*/
