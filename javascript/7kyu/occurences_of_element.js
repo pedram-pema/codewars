@@ -20,3 +20,15 @@ const findAll = (array, n) => {
     }
     return arr;
 }
+
+// Second solution:
+
+const findAll = (array, n) => {
+  let arr = [];
+  array.forEach((val, ind) => {
+    if (val === n) {
+      arr.push(ind);
+    }
+  });
+  return arr;
+}
